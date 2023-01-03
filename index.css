@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #18181b;
+    color: #fafafa;
+}
+
+#content {
+    display: flex;
+}
+
+#vis {
+    margin: 1rem;
+    /* width: 50vw;
+    height: 90vh; */
+    box-shadow: 0 0 10px black;
+}
+
+textarea {
+    background: rgba(1,1,1,0.1);
+    color: white;
+    border: none;
+    padding: 0.5rem 3px;
+}
+
+textarea:focus {
+    outline: 2px solid #aaa;
+}
+
+#program {
+    width: 30rem;
+    height: 15rem;
+}
+
+#input {
+    width: 30rem;
+    height: 3rem;
+}
+
+#output {
+    width: 30rem;
+    height: 5rem;
+}
